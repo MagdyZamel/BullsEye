@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A1D73221E9E90B800F6AF52 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = 2A1D73211E9E90B800F6AF52 /* BullsEye.html */; };
+		2A1D73241E9E924000F6AF52 /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1D73231E9E924000F6AF52 /* AboutVC.swift */; };
 		2ACCC7B11E98E5EA00C723BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACCC7B01E98E5EA00C723BD /* AppDelegate.swift */; };
 		2ACCC7B31E98E5EA00C723BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACCC7B21E98E5EA00C723BD /* ViewController.swift */; };
 		2ACCC7B61E98E5EA00C723BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ACCC7B41E98E5EA00C723BD /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A1D73211E9E90B800F6AF52 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
+		2A1D73231E9E924000F6AF52 /* AboutVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutVC.swift; sourceTree = "<group>"; };
 		2ACCC7AD1E98E5EA00C723BD /* bullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ACCC7B01E98E5EA00C723BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2ACCC7B21E98E5EA00C723BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,8 +58,10 @@
 		2ACCC7AF1E98E5EA00C723BD /* bullsEye */ = {
 			isa = PBXGroup;
 			children = (
+				2A1D73211E9E90B800F6AF52 /* BullsEye.html */,
 				2ACCC7B01E98E5EA00C723BD /* AppDelegate.swift */,
 				2ACCC7B21E98E5EA00C723BD /* ViewController.swift */,
+				2A1D73231E9E924000F6AF52 /* AboutVC.swift */,
 				2ACCC7B41E98E5EA00C723BD /* Main.storyboard */,
 				2ACCC7B71E98E5EA00C723BD /* Assets.xcassets */,
 				2ACCC7B91E98E5EA00C723BD /* LaunchScreen.storyboard */,
@@ -125,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2ACCC7BB1E98E5EA00C723BD /* LaunchScreen.storyboard in Resources */,
+				2A1D73221E9E90B800F6AF52 /* BullsEye.html in Resources */,
 				2ACCC7B81E98E5EA00C723BD /* Assets.xcassets in Resources */,
 				2ACCC7B61E98E5EA00C723BD /* Main.storyboard in Resources */,
 			);
@@ -139,6 +146,7 @@
 			files = (
 				2ACCC7B31E98E5EA00C723BD /* ViewController.swift in Sources */,
 				2ACCC7B11E98E5EA00C723BD /* AppDelegate.swift in Sources */,
+				2A1D73241E9E924000F6AF52 /* AboutVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +310,7 @@
 				2ACCC7C11E98E5EA00C723BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
